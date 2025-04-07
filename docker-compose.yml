@@ -57,6 +57,7 @@ services:
       - migrate
 
   # Reader Microservice
+  sdf
   reader-mgt:
     build: ./reader-mgt
     container_name: reader-service
