@@ -61,7 +61,8 @@ services:
     build: ./reader-mgt
     container_name: reader-service
     volumes:
-      - ./database/prisma:/usr/src/app/prisma
+      - ./database/prisma:/usr/src/app/prisma 
+      sdf
       - ./database/prisma/client:/usr/src/app/node_modules/@prisma/client
     environment:
       DATABASE_HOST: mysql
